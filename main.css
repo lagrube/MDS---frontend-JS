@@ -6,9 +6,13 @@ h1 {
   display: none;
 }
 
-img {
+#gain-energie,
+#stand-up {
   width: 60px;
   height: 60px;
+}
+
+#gain-energie {
   position: absolute;
   right: 20px;
   top: 20px;
@@ -17,7 +21,22 @@ img {
   padding: 2px;
 }
 
+#stand-up {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 2px;
+}
+
 .blue {
   background: #0084ff;
+}
+
+.red {
+  background: red;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 /*# sourceMappingURL=main.css.map */

@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Tamagotchi</title>
   </head>
   <body>
     <h1>Mon tamagotchi</h1>
     <div id="night">
       <img id="gain-energie" src="./images/zzz.png" alt="sleep" />
+    </div>
+    <div id="light">
+      <img id="stand-up" src="./images/cloche.png" alt="light" />
     </div>
     <div id="game">
       <button class="play">JOUER</button>
@@ -19,7 +26,7 @@
     <div id="stats">
       <p>Stats :</p>
       <span id="feed-stat">100</span> %
-      <button class="feed">Satieté</button>
+      <button class="feed">Faim</button>
       <span id="energie-stat">100</span> %
       <button class="energie">Energie</button>
       <span id="fun-stat">100</span> %
